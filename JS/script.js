@@ -22,12 +22,12 @@ let totalPages = 100;
 
 // input field hover effect
 document.querySelector("#searchBtn").addEventListener("mouseenter", function () {
-  container.classList.add("active"); // Slide out the input field on hover
+  container.classList.add("active"); 
 });
 
 document.addEventListener("click", function (event) {
   if (!container.contains(event.target)) {
-    container.classList.remove("active"); // Slide back the input field when clicking outside
+    container.classList.remove("active"); 
   }
 });
 
@@ -54,11 +54,11 @@ function getMovies(url) {
         .catch(error => console.error('Error fetching data:', error));
 }
 
-// Function to display movies on the page
+
 // Function to display movies in cards with overlay
 function showMovies(movies) {
   const listContainer = document.getElementById('listContainer');
-  listContainer.innerHTML = ''; // Clear any existing content
+  listContainer.innerHTML = ''; 
 
   movies.forEach(movie => {
       const { title, vote_average, overview, poster_path } = movie;
@@ -95,9 +95,8 @@ form.addEventListener('submit', (e) => {
     }
 });
 
-// Function to setup pagination
-// function setupPagination(current, total) {
 
+// Function to setup pagination
 
 function setupPagination(current, total) {
     pagination.innerHTML = '';
