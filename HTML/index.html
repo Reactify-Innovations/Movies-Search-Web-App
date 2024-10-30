@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../Images/images.jpg" type="image/x-icon">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Movie Search Website</title>
+  </head>
+  <body>
+      <div class="container">
+        <header class="navbar">
+
+          <div class="logo"><a href="index.html">Movies Hub.</a></div>
+
+            <form class="input-btn">
+                <input type="text" placeholder="What are you looking for?" id="userInput">
+              <button id="searchBtn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </header>
+      </div> 
+
+      <main class="main">
+        <div id="cardsContainer">
+          <!-- <p id="searchResults">Search Results For: </p> -->
+          <ul id="listContainer"> </ul>
+        </div>
+      </main>
+
+      <footer>
+        <div class="pagination">
+          <ul id="pagination"></ul>
+      </div>
+      <div>
+        <p>© Copyright Reserved by Mr. Muzammil</p>
+      </div>
+      </footer>
+
+    <!-- JS File -->
+     <script src="/JS/script.js"></script>
+  </body>
+</html>
