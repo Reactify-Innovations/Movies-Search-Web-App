@@ -1,6 +1,5 @@
 
             // main URL's
-const API_KEY = 'api_key=d7f389d20067b6684f5232338970f687';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 
