@@ -2,7 +2,7 @@
 
 // main URL's
 // Kindly use your own Api Key in this format --->>
-const API_KEY = "apikey= (your api key here)";
+const API_KEY = "api_key=d7f389d20067b6684f5232338970f687";
 
 
 
