@@ -1,14 +1,7 @@
 
-
-// main URL's
-// Kindly use your own Api Key in this format --->>
-const API_KEY = "api_key=d7f389d20067b6684f5232338970f687";
-
-
-
-
-const BASE_URL = 'https://api.themoviedb.org/3';
-const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
+            import API_KEY from './config.js';
+            const BASE_URL = 'https://api.themoviedb.org/3';
+            const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const SEARCH_URL = BASE_URL + `/search/movie?` + API_KEY + `&query=`;
